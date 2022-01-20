@@ -54,6 +54,6 @@ python app.py
 https://www.canva.com/design/DAEysX2NhN4/9FLLEB7HBLx-tO-UHMvW8w/view?utm_content=DAEysX2NhN4&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent
 
 
-##Developed By: 
+## Developed By: 
 [Aaditya Prakash](https://github.com/Aaditya188)
 [Aryan Singh](https://github.com/Singh-Aryan)
