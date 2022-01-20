@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        
+        <link rel="icon" href="/static/favicon.png" type="image/png">
+
+        <title>{{ greet }}</title>
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="/static/fail.css" />
+
+    </head>
+
+<body>
+
+	<div id="notfound">
+		<div class="notfound">
+			<div class="notfound-404" style="background-image: url('/static/emoji.png');"></div>
+			<h1>{{ st }}</h1>
+			<p>{{ greet }}</p>
+			<a href="{{ url_for('index') }}">Back to homepage</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
